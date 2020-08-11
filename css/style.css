@@ -1,0 +1,81 @@
+body {
+background-color:darkslateblue;
+}
+h1 {
+color:yellow;
+font-family: Gill Sans MT;
+background-color: darkmagenta;
+margin: 1% 1%;
+padding: 2% 2%;
+display: inline-block;
+
+}
+
+h2 {
+   color:lightseagreen; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+   background-color: cornsilk;
+
+}
+
+h3{
+    color: orange;
+    background-color: darkslategrey;
+
+}
+
+h4{
+    color: white;
+    background-color: hotpink;
+
+}
+
+p {
+    color:lemonchiffon ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+li {
+    color:lightgreen;
+    display: list-item;
+    margin-right: 20px;
+
+}
+
+ol li{
+    color: lawngreen;
+}
+
+ul{
+    list-style-type: square];
+
+
+}
+
+
+button{
+    color: yellow;
+}
+button{
+    background-color: brown;
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    display: inline;
+
+}
+
+
+div{
+    background-color:lightseagreen;
+    margin:auto;
+    width: 50px;
+display: inline;
+font-style: italic;
+
+}
