@@ -1,5 +1,5 @@
 body {
-background-color:darkslateblue;
+background-color:rgb(100, 89, 218);
 }
 h1 {
 color:yellow;
@@ -32,17 +32,26 @@ h4{
 }
 
 p {
-    color:lemonchiffon ;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(243, 0, 0) ;
+    font-family: sans-serif;
 
 }
 
 li {
     color:lightgreen;
-    display: list-item;
+    display: inline-block;
     margin-right: 20px;
 
 }
+
+a:hover{
+    text-decoration: none ;
+}
+
+li:hover{
+    background-color: pink;
+}
+
 
 ol li{
     color: lawngreen;
@@ -60,8 +69,12 @@ button{
 }
 button{
     background-color: brown;
-}
 
+
+}
+button:hover{
+    background-color: seagreen;
+}
 
 section{
     display: flex;
@@ -73,9 +86,41 @@ section{
 
 div{
     background-color:lightseagreen;
-    margin:auto;
-    width: 1px;
+    margin:auto;   
 display: inline;
 font-style: italic;
 
+}
+
+
+.aboutus p {
+    background-color:gray ;
+
+}
+
+.special li{
+    display: list-item;
+}
+
+.items li{
+    display: list-item;
+
+
+}
+
+.items li:hover{
+    background-color: darkolivegreen;
+}
+.special li:hover{
+    background-color: darkred;
+}
+
+.aboutush1 {
+    font: italic;
+
+
+}
+
+.lineup li{
+    text-decoration-color: lightpink;
 }
