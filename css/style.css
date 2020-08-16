@@ -1,40 +1,31 @@
 body {
-background-color:rgb(255, 249, 168);
+background-color:rgb(228, 228, 228);
 }
 h1 {
-color:yellow;
+color:white;
 font-family: Gill Sans MT;
-background-color: darkmagenta;
-margin: 1% 1%;
-padding: 2% 2%;
-display: inline-block;
+background-color: mediumvioletred;
+margin-top: 50px;
+padding: 10% 5%;
+font-size: 40px;
+text-align: center;
+font-style: inherit;
 
 }
 
 h2 {
-   color:lightseagreen; 
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color:rgb(204, 11, 11); 
+   font-family: 'Arial Narrow', Arial, sans-serif;
    font-style: italic;
-   background-color: lavenderblush;
-
+   text-align: center;
+text-decoration-line: underline;
 }
 
-h3{
-    color: orange;
-    background-color: darkslategrey;
-
-}
-
-h4{
-    color: white;
-    background-color: hotpink;
-
-}
 
 p {
-    color:rgb(243, 0, 0) ;
+    color:rgb(85, 64, 64) ;
     font-family: sans-serif;
-
+text-align: center;
 }
 
 li {
@@ -46,21 +37,9 @@ li {
 
 a:hover{
     text-decoration: none ;
+background-color: mediumturquoise;
 }
 
-li:hover{
-    background-color: pink;
-}
-
-
-ol li{
-    color: lawngreen;
-}
-
-ul{
-    list-style-type: square;
-
-}
 
 
 button{
@@ -75,75 +54,5 @@ button{
 button:hover{
     background-color: seagreen;
 }
-
-section{
-    display: flex;
-    flex-direction: row;
-    display: inline;
-
-}
-
-
-div{
-    background-color:lightseagreen;
-    margin:auto;   
-display: inline;
-font-style: italic;
-
-}
-
-
-
-.special li{
-    display: list-item;
-padding-bottom: 05px;
-color: indigo;
-}
-
-.items li{
-    display: list-item;
-color: indigo;
-
-}
-
-.items li:hover{
-    background-color: lightsalmon;
-}
-.special li:hover{
-    background-color: lightsalmon;
-padding-bottom: 0px;
-}
-
-
-
-.lineup li{
-    text-decoration-color: lightpink;
-}
-
-.navigation{
-    display: inline-block;
-margin-inline-start: 300px;
-}
-.aboutushead h1{
-   margin-inline-start: 400px;
-padding: 5px;
-padding-left: 20px;
-padding-right:20px;
-}
-
-.mainheading{
-    
-padding: 300px;
-}
-
-.foodvar{
-text-size-adjust: 20%;
-}
-
-.conthead h1{
-    padding: 5px;
-    margin-inline-start: 450px;
-}
-
 
 
