@@ -1,5 +1,5 @@
 body {
-background-color:rgb(100, 89, 218);
+background-color:rgb(255, 249, 168);
 }
 h1 {
 color:yellow;
@@ -60,12 +60,12 @@ ol li{
 ul{
     list-style-type: square;
 
-
 }
 
 
 button{
     color: yellow;
+padding: 10px;
 }
 button{
     background-color: brown;
@@ -93,34 +93,57 @@ font-style: italic;
 }
 
 
-.aboutus p {
-    background-color:gray ;
-
-}
 
 .special li{
     display: list-item;
+padding-bottom: 05px;
+color: indigo;
 }
 
 .items li{
     display: list-item;
-
+color: indigo;
 
 }
 
 .items li:hover{
-    background-color: darkolivegreen;
+    background-color: lightsalmon;
 }
 .special li:hover{
-    background-color: darkred;
+    background-color: lightsalmon;
+padding-bottom: 0px;
 }
 
-.aboutush1 {
-    font: italic;
 
-
-}
 
 .lineup li{
     text-decoration-color: lightpink;
 }
+
+.navigation{
+    display: inline-block;
+margin-inline-start: 300px;
+}
+.aboutushead h1{
+   margin-inline-start: 400px;
+padding: 5px;
+padding-left: 20px;
+padding-right:20px;
+}
+
+.mainheading{
+    
+padding: 300px;
+}
+
+.foodvar{
+text-size-adjust: 20%;
+}
+
+.conthead h1{
+    padding: 5px;
+    margin-inline-start: 450px;
+}
+
+
+
