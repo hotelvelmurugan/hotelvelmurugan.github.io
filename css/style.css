@@ -1,12 +1,12 @@
 body {
-background-color:rgb(228, 228, 228);
+background-color:rgb(255, 255, 255);
 }
 h1 {
-color:white;
+color:rgb(255, 255, 255);
 font-family: Gill Sans MT;
-background-color: mediumvioletred;
-margin-top: 50px;
-padding: 10% 5%;
+background-color: salmon;
+margin-top: 30px;
+padding: 5% 5%;
 font-size: 40px;
 text-align: center;
 font-style: inherit;
@@ -18,7 +18,8 @@ h2 {
    font-family: 'Arial Narrow', Arial, sans-serif;
    font-style: italic;
    text-align: center;
-text-decoration-line: underline;
+   text-decoration-line: underline;
+
 }
 
 
@@ -31,8 +32,7 @@ text-align: center;
 li {
     color:lightgreen;
     display: inline-block;
-    margin-right: 20px;
-
+    margin-right: 170px;
 }
 
 a:hover{
@@ -55,4 +55,41 @@ button:hover{
     background-color: seagreen;
 }
 
+img{
+width: 70px;
+align-content: center;
+
+}
+.bbb{
+    width: 1000px;
+height: 200px;
+}
+
+.round img{
+    
+    margin: auto;
+width: 160px;
+margin-inline-start: 20px;
+border-radius: 50%;
+box-shadow: black 10px 10px 10px;
+border:1px solid white;
+}
+.round{
+    background-color: lightgreen;
+
+}
+footer{
+    background-color: darkgrey;
+    text-align: center;
+
+}
+
+.gallery img{
+    margin-inline-start: 30px;
+width: 400px;
+border-radius: 30px;
+padding: 3px;
+box-shadow:lightgreen 10px 10px 10px;
+border: 2px solid grey;
+}
 
