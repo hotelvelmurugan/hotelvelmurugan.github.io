@@ -102,13 +102,15 @@ border: 5px solid orangered;
 @media all and (max-width: 800px){
     .gallery img{
         border: 5px solid blue;
+   display: block;
     }
 }
 
 @media all and (max-width: 800px){
    .round img{
     border: 5px solid red;
-   }
+display: block;
+}
     
 }
 
